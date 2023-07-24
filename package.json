@@ -1,0 +1,29 @@
+{
+  "name": "express-countries",
+  "version": "1.0.0",
+  "description": "Small backend project to use node.js + express with countries",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davidrami12/express-countries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davidrami12/express-countries/issues"
+  },
+  "homepage": "https://github.com/Davidrami12/express-countries#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
